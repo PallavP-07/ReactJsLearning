@@ -1,0 +1,22 @@
+@import "../../styles/utils.scss";
+
+.el {
+    margin-top: 120px;
+
+    .content {
+        display: flex;
+    }
+
+    .card {
+        background-color: $color-dark;
+        border-radius: 12px;
+        color: $color-light;
+        cursor: pointer;
+        font-size: 24px;
+        padding: 12px 24px;
+
+        &:not(:last-child) {
+            margin-right: 20px;
+        }
+    }
+}

@@ -1,0 +1,17 @@
+@import "./utils.scss";
+
+* {
+  box-sizing: border-box;
+  outline: none;
+}
+
+html,
+body {
+  width: 100%;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: $container-width;
+  width: 100%;
+}
